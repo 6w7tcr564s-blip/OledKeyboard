@@ -1,0 +1,107 @@
+  {
+    "minVersion": "0.1",
+    "headerImage": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/header.png",
+    "class": "DepictionTabView",
+    "tintColor": "#OOOOOO",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "OledKeyboard",
+                    "useBoldText": true
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "No app icon in Now Playing and Control Center artworks"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot3",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot4.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot4",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot5.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot5",
+                            "url": "https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/screenshot6.png"
+                        }
+                    ],
+                    "itemSize": "{160, 275.41333333333336}",
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "text": "dvntm",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Details"
+        },
+        {
+            "views": [
+                {
+                    "text": "Oct 14, 2024",
+                    "class": "DepictionTableTextView",
+                    "title": "Version 0.0.3"
+                },
+                {
+                    "markdown": "- Autofill and bar above keyboard support",
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Changelog"
+        },
+        {
+            "views": [
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "My Patreon",
+                    "action": "https://patreon.com/dayanch96"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Buy me a coffee",
+                    "action": "https://buymeacoffee.com/dayanch96"
+                }
+            ],
+            "class": "DepictionStackView",
+            "tabname": "Support"
+        }
+    ]
+}
