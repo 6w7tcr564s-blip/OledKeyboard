@@ -23,18 +23,3 @@
     </tr>
   </table>
 </details>
-
-
-
-
-Package: com.dvntm.oledkeyboard
-Name: OledKeyboard
-Version: 0.0.3
-Architecture: iphoneos-arm
-Description: OLED Dark Mode for iOS System Keyboard
-Maintainer: dvntm
-Author: dvntm
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Icon: https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/icon.png
-SileoDepiction: https://raw.githubusercontent.com/dayanch96/OledKeyboard/main/Sileo/depiction.json
